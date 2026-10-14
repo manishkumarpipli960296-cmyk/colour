@@ -1,103 +1,172 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wingo Analyzer AI</title>
+<title>Colour Trading Learning</title>
 
 <style>
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background: #10182c;
+  background: #0b1020;
   color: white;
   padding: 18px;
 }
 
 .container {
-  max-width: 360px;
-  margin: 20px auto;
-  background: #19243d;
-  padding: 18px;
-  border-radius: 18px;
+  max-width: 390px;
+  margin: 15px auto;
+  background: #151d32;
+  border: 1px solid #293653;
+  border-radius: 20px;
+  padding: 24px 18px;
   text-align: center;
-  border: 1px solid #344565;
 }
 
 .logo {
-  width: 100%;
-  border-radius: 12px;
-  margin-bottom: 18px;
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
 h1 {
-  font-size: 25px;
-  color: #ffc844;
+  font-size: 27px;
+  line-height: 1.3;
   margin-bottom: 12px;
 }
 
-p {
-  font-size: 14px;
-  line-height: 1.6;
-  color: #e0e7f4;
-  margin-bottom: 18px;
+h1 span {
+  color: #42e89a;
 }
 
-.button {
-  display: block;
-  background: #ffc844;
-  color: #10182c;
-  padding: 14px;
-  border-radius: 10px;
-  text-decoration: none;
+.subtitle {
+  color: #b8c3d9;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.color-box {
+  flex: 1;
+  padding: 16px 4px;
+  border-radius: 12px;
   font-weight: bold;
-  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.red { background: #e83d55; }
+.green { background: #13b981; }
+.violet { background: #8055e8; }
+
+.info {
+  background: #202b43;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.info h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.info p {
+  color: #c1cbe0;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  background: #42e89a;
+  color: #081b13;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 18px;
 }
 
 .note {
   font-size: 11px;
-  color: #b9c3d5;
-  margin-bottom: 0;
+  color: #9eabc1;
+  line-height: 1.6;
+  margin-top: 18px;
 }
 </style>
 </head>
 
 <body>
+
 <div class="container">
 
-  <!-- Apni image ka naam wingo.jpg rakhein -->
-  <img src="wingo.jpg"
-       alt="Wingo Analyzer AI"
-       class="logo">
+  <div class="logo">🎯</div>
 
-  <h1>WINGO ANALYZER AI</h1>
+  <h1>Explore <span>Colour</span><br>Trading Concepts</h1>
 
-  <p>
-    Explore number patterns and learn about
-    Wingo game results with our analyzer.
+  <p class="subtitle">
+    Learn the basics of colour-based prediction games,
+    understand the risks, and explore demo examples.
   </p>
 
-  <a class="button"
-     href="https://t.me/YOUR_CHANNEL_LINK"
-     target="_blank"
-     rel="noopener">
-     EXPLORE CHANNEL
-  </a>
+  <div class="colors">
+    <div class="color-box red">RED</div>
+    <div class="color-box green">GREEN</div>
+    <div class="color-box violet">VIOLET</div>
+  </div>
+
+  <div class="info">
+    <h3>📘 What You Can Learn</h3>
+    <p>
+      • Basic colour-game concepts<br>
+      • Demo-based examples<br>
+      • Risk awareness<br>
+      • Responsible online practices
+    </p>
+  </div>
+
+  <div class="info">
+    <h3>⚠️ Important Information</h3>
+    <p>
+      Predictions are uncertain. No profits or winning
+      results are guaranteed. This page is for educational
+      purposes only and does not accept deposits or bets.
+    </p>
+  </div>
+
+  <a href="#learn" class="btn">Explore Learning ↓</a>
+
+  <div class="info" id="learn">
+    <h3>Start with the Basics</h3>
+    <p>
+      Understand how colour-based games work and
+      why outcomes can be unpredictable before
+      participating in any online activity.
+    </p>
+  </div>
 
   <p class="note">
-    For informational purposes only.
-    Predictions are not guaranteed.
-    Please follow local laws and age restrictions.
+    Educational demo only. No real-money gaming,
+    deposits, betting, or guaranteed-return claims.
   </p>
 
 </div>
+
 </body>
 </html>
-```
-
